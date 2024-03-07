@@ -51,7 +51,6 @@ export default async function Crypto({
           <PriceList prices={prices} currentCurrency={currentCurrency} />
         </Stack>
       </Stack>
-      <Footer />
     </Container>
   );
 }
