@@ -35,7 +35,7 @@ export default async function Crypto({
           md: "row",
         }}
       >
-        <Stack direction="column" spacing={2} flex={1}>
+        <Stack direction="column" spacing={2} flex={2}>
           <StockTabs currentCurrency={currentCurrency} />
           <StockChart chartData={chartData} />
         </Stack>

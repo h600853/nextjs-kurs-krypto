@@ -1,5 +1,6 @@
 import React from "react";
 import { AppBar, Container, Stack, Toolbar, Typography } from "@mui/material";
+import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 
 const Header: React.FC = () => {
   return (
@@ -7,9 +8,8 @@ const Header: React.FC = () => {
       <Toolbar>
         <Container maxWidth="lg">
           <Stack direction="row" spacing={2} alignItems="center">
-            {/* Her kan du sette inn et ikon for eksempel, https://mui.com/material-ui/material-icons/*/}
-            <Typography variant="h6" noWrap>
-              Mitt Krypto Dashboard
+            <Typography variant="h6" style={{ flexGrow: 1 }} align="center">
+              Krypto Dashboard <RocketLaunchIcon />
             </Typography>
           </Stack>
         </Container>
